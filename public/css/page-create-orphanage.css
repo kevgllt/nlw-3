@@ -1,17 +1,21 @@
-page-create-orphanage {
+#page-create-orphanage {
     width: flex;
     min-width: 100vh;
 }
 
-form {
-    width: 70rem;
-    margin: 6.4rem auto;
-    background: white;
-    border: 1px solid #D3E2E5;
-    
-    border-radius: 2rem;
+main {
+    flex:1;
+}
 
-    overflow: hidden;
+.map-container {
+    margin: 0 0 4rem;
+}
 
-    padding: 8rem;
+.map-container .leaflet-container {
+    border-radius: 20px 20px 0 0;
+}
+
+.map-container footer {
+    background: #F5F8FA;
+    border-radius: 0 0 20px 20px;
 }
